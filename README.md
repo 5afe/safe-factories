@@ -1,9 +1,9 @@
 ## Gnosis Safe Factories
 
-This repo contains the soldity code for the factories to create Safe instances of specific versions.
+This repo contains the Soldity code for the factories to create Safe instances of specific versions.
 
-### Safe 1.1.1
-Enables user to create a Safe with the msg.sender as the only owner and threshold 1. No further configuration will be done during creation (no modules or fallback manager). All funds send to the factory for the creation call will be forwarded to the newly created Safe.
+### Safe 1.1.1 Factory
+Enables user to create a [1.1.1 Safe](https://github.com/gnosis/safe-contracts/releases/tag/v1.1.1) with the msg.sender as the only owner and threshold 1. No further configuration will be done during creation (no modules or fallback manager). All funds send to the factory for the creation call will be forwarded to the newly created Safe.
 
 * Factory contract: `Safe_1_1_1_Factory.sol`
   * Mastercopy: [`0x34CfAC646f301356fAa8B21e94227e3583Fe3F5F`](https://etherscan.io/address/0x34CfAC646f301356fAa8B21e94227e3583Fe3F5F)
