@@ -15,3 +15,10 @@ Proxy creation can be triggered by sending a transaction without data (normal tr
 
 * `yarn`
 * `yarn test`
+
+### Deployment
+
+* Create `.env` based on `.env.sample`
+* `yarn deploy <network>`
+  * To deploy a specific migration use `yarn deploy <network> -f 1 --to 1`
+* Use `yarn version` or run `yarn restore` before you pusblish the package
