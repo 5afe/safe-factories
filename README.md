@@ -9,6 +9,9 @@ Enables user to create a [1.1.1 Safe](https://github.com/gnosis/safe-contracts/r
   * Mastercopy: [`0x34CfAC646f301356fAa8B21e94227e3583Fe3F5F`](https://etherscan.io/address/0x34CfAC646f301356fAa8B21e94227e3583Fe3F5F)
   * Proxy factory: [`0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B`](https://etherscan.io/address/0x76E2cFc1F5Fa8F6a5b3fC4c8F4788F0116861F9B)
 
+* Deployed with transaction [`0xe66d55aea21771df9e734b00ee871943ed8133135728b2076901771daf3e51a1`](https://etherscan.io/tx/0xe66d55aea21771df9e734b00ee871943ed8133135728b2076901771daf3e51a1) on Mainnet and Rinkeby
+  * Factory: [`0x1337A824F3131c718b7a336E18CADb4BA0faffFc`](https://etherscan.io/address/0x1337A824F3131c718b7a336E18CADb4BA0faffFc)
+
 Proxy creation can be triggered by sending a transaction without data (normal transfer) to the factory address. Any ETH value set in the transaction will be forwared to the new Safe instance.
 
 ### Audit
