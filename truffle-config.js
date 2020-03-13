@@ -66,7 +66,7 @@ module.exports = {
     rinkeby: {
       provider: () => new HDWalletProvider(mnemonic, 'https://rinkeby.infura.io/v3/' + token),
       network_id: 4,       // Ropsten's id
-      gas: 5500000,        // Ropsten has a lower block limit than mainnet
+      gas: 350000,        // Ropsten has a lower block limit than mainnet
       confirmations: 0,    // # of confs to wait between deployments. (default: 0)
       timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
@@ -74,7 +74,8 @@ module.exports = {
 
     mainnet: {
       provider: () => new HDWalletProvider(mnemonic, 'https://mainnet.infura.io/v3/' + token),
-      network_id: 1,       // Ropsten's id
+      network_id: 1,
+      gas: 350000,
       timeoutBlocks: 400,  // # of blocks before a deployment times out  (minimum/default: 50)
     },
 
