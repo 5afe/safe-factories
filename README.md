@@ -12,7 +12,7 @@ Enables user to create a [1.1.1 Safe](https://github.com/gnosis/safe-contracts/r
 * Deployed with transaction [`0xe66d55aea21771df9e734b00ee871943ed8133135728b2076901771daf3e51a1`](https://etherscan.io/tx/0xe66d55aea21771df9e734b00ee871943ed8133135728b2076901771daf3e51a1) on Mainnet and Rinkeby
   * Factory: [`0x1337A824F3131c718b7a336E18CADb4BA0faffFc`](https://etherscan.io/address/0x1337A824F3131c718b7a336E18CADb4BA0faffFc)
 
-Proxy creation can be triggered by sending a transaction without data (normal transfer) to the factory address. Any ETH value set in the transaction will be forwared to the new Safe instance.
+Proxy creation can be triggered by sending a transaction without data (normal transfer) to the factory address. Any ETH value set in the transaction will be forwarded to the new Safe instance.
 
 ### Audit
 [An audit](https://github.com/g0-group/Audits/blob/9454c83dec6dd92be14a768b779c85489ca1671f/G0Group-GnosisSafeFactoryFeb2020.pdf) has been performed by the [G0 Group](https://github.com/g0-group/).
